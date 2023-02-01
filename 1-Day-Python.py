@@ -51,6 +51,21 @@ print("String Concatenation is done with the "+"sign.")
 print ("e.g. print Hello" + " world")
 print ("New lines can be created with a backslash and n.\n")
 
+input("What is your name\n ")
+
+#input will get user input in console
+print("Hello " + input("What is your name? "))
+
+#name = print( len( input("What is your name ? ")))
+#print(name)
+
+name = input("What is your name?")
+length = len(name)
+
+print(length)
+
+     
+
 
 
 
