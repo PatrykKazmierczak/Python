@@ -89,11 +89,15 @@ pet = input("What is name of your pet\n")
 
 print("Your band name could be " + city + " " + pet)
 
+print(test)
+
+print(test)
 
 
+print(test)
      
 
-
+print(test)
 
 
 
