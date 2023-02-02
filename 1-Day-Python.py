@@ -64,6 +64,33 @@ length = len(name)
 
 print(length)
 
+a = input("a: ")
+b = input("b: ")
+
+a = "Test name"
+b = input("Number:") + a
+
+name = "Jack"
+
+print(name)
+
+name = "Angela"
+
+print(name)
+
+user_name = input("What is your name? ")
+print(name)
+
+print(len(input("What is your name? ")))
+
+print("Welcome to the Band Name Generator")
+city = input("What is the city you grew up in?\n")
+pet = input("What is name of your pet\n")
+
+print("Your band name could be " + city + " " + pet)
+
+
+
      
 
 
