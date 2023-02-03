@@ -26,3 +26,87 @@ total_bill = bill + total_tip
 bill_per_person = total_bill / people
 
 final_amount = round(bill_per_person, 2)
+
+print(len("Hello"))
+
+# print first letter
+print("Hello"[0])
+# print last letter
+print("Hello"[4])
+
+
+print (4565 + 547483)
+
+# Phyton Data Types
+# Integer 98787
+# Float 3.13432
+#Boolean True False
+
+name_char = len(input("What is your name"))
+new_name_char = str(name_char)
+print("Your name has " + new_name_char + " characters.")
+
+# check type of input
+print(type(name_char))
+
+a = str(123)
+print(type(a))
+
+a = float(123)
+print(type(a))
+
+a = int(123)
+print(type(a))
+
+print(70 + float("100.5"))
+
+print(str(70) + str(100))
+
+
+# Example of solution -> number 59  = 5 + 9 = 12
+
+a = int(input("Please write number from 10 - 99"))
+b = str(a)
+c = str(a)
+
+d = b[0]
+e = c[1]
+
+f = int(d)
+g = int(e)
+
+print(f + g)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
