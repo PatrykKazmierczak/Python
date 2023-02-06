@@ -61,7 +61,23 @@ if height >= 120:
 else:
     print("You have to grow taller before you can ride.")
 
+height = input("Enter your height in m: ")
+weight = input("Enter your weight in kg: ")
 
+bmi = int(weight) / float(height) ** 2
+bmi_as_int = int(bmi)
+print(round(bmi_as_int, 2))
+
+if bmi_as_int < 18.5:
+    print("You are underweight.")
+elif bmi_as_int >= 18.5 and bmi_as_int < 25:
+    print("You are normal.")
+elif bmi_as_int >= 25 and bmi_as_int < 30:
+    print("You are overweight.")
+elif bmi_as_int >= 30 and bmi_as_int < 35:
+    print("You are obese.")
+else:
+    print("You are clinically obese.")
 
 
 
