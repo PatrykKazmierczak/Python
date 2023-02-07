@@ -79,6 +79,19 @@ elif bmi_as_int >= 30 and bmi_as_int < 35:
 else:
     print(f"Your bmi is {bmi_as_int}, You are clinically obese.")
 
+year = int(input("What year you want to check" ))
+
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print("Leap year")
+        else:
+            print("Not leap year")
+    else:
+        print("Leap year")
+else:
+    print("Not leap year")
+
 
 
 
