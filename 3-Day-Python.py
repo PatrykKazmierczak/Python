@@ -200,8 +200,51 @@ elif love_score >= 40 and love_score <= 50:
 else:
     print(f"Your love score is {love_score}")
 
+print('''
+                    ____...------------...____
+               _.-"` /o/__ ____ __ __  __ \o\_`"-._
+             .'     / /                    \ \     '.
+             |=====/o/======================\o\=====|
+             |____/_/________..____..________\_\____|
+             /   _/ \_     <_o#\__/#o_>     _/ \_   \
+             \_________\####/_________/
+              |===\!/========================\!/===|
+              |   |=|          .---.         |=|   |
+              |===|o|=========/     \========|o|===|
+              |   | |         \() ()/        | |   |
+              |===|o|======{'-.) A (.-'}=====|o|===|
+              | __/ \__     '-.\/.-'    __/ \__ |
+              |==== .'.'^'.'.====|
+          jgs |  _\o/   __  {.' __  '.} _   _\o/  _|
+              `""""-""""""""""""""""""""""""""-""""`
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find treasure.")
 
-    print("Example")
+choice1 = input('You\'re at a crossroad, where do you want to go? Type "left" or "right".').lower()
+
+if choice1 == "left":
+ choice2 = input('You\'ve come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across').lower()
+ if choice2 == "wait":
+     choice3 = input("You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?").lower()
+     if choice3 == "red":
+         print("Game over")
+     elif choice3 == "yellow":
+         print("You win")
+     elif choice3 == "blue":
+         print("Game over")
+     else:
+         print("You choose a door that doesn't exist. Game over.")
+ else:
+     print("You got attacked by angry trout")
+else:
+    print("You fell into a hole. Game over.")
+
+
+
+
+
+
 
 
 
