@@ -201,6 +201,9 @@ else:
     print(f"Your love score is {love_score}")
 
 
+    print("Example")
+
+
 
 
 
