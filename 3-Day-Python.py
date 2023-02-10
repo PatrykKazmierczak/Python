@@ -240,6 +240,40 @@ if choice1 == "left":
 else:
     print("You fell into a hole. Game over.")
 
+    # Create own ASCII game
+
+print("Welcome to Quiz Game")
+print("Your mission is to correct answer for question")
+
+choose1 = input('Which type of transport is slower "bike" or "motorbike"')
+    if choose1 == "bike":
+        print("You won the game")
+        print(''' 
+                   _     _                 _      
+| |   (_)               | |     
+| |__  _  ___ _   _  ___| | ___ 
+| '_ \| |/ __| | | |/ __| |/ _ \
+| |_) | | (__| |_| | (__| |  __/
+|_.__/|_|\___|\__, |\___|_|\___|
+               __/ |            
+              |___/    
+ ''')
+    else:
+        print('''   _____
+           /     \/_
+          //\__(\_\
+          |\ ^  ^ |
+         .//_O \O_ \
+          \_  (_)  /
+           \  \_/ /
+         __/\    /\__
+        /  \ \  / /  \
+       /    \/\/\/    \
+      /   |    .   |   \
+     /    |    .   |    \ ''')
+        print("You lost a game funny boy")
+
+
 
 
 
