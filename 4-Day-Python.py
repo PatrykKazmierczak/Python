@@ -87,5 +87,4 @@ person = names[random_choice]
 print(person)
 print(person)
 
-print(person)
 
