@@ -86,5 +86,5 @@ random_choice = random.randint(0, numer_of_items-1)
 person = names[random_choice]
 print(person)
 print(person)
-
+#
 
