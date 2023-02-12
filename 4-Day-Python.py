@@ -21,7 +21,7 @@ else:
     print("Tails")
 print(random_number)
 
-List
+# List
 
 states_of_america = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia"]
 print(states_of_america[0])
@@ -100,19 +100,19 @@ else:
     print("Tails")
 print(random_number)
 
-List
-
-list.append(x)
-list.insert(i, x)
-list.extend(iterable)
-list.remove(x)
-list.pop([i])
-list.clear()
-list.index(x[, start[, end]])
-list.count(x)
-list.sort(*, key=None, reverse=False)
-list.reverse()
-list.copy()
+# List
+#
+# list.append(x)
+# list.insert(i, x)
+# list.extend(iterable)
+# list.remove(x)
+# list.pop([i])
+# list.clear()
+# list.index(x[, start[, end]])
+# list.count(x)
+# list.sort(*, key=None, reverse=False)
+# list.reverse()
+# list.copy()
 
 states_of_america = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "Florida", "Georgia"]
 print(states_of_america[0])
@@ -170,7 +170,7 @@ print(person_who_will_pay)
 
 print(len(states_of_america))
 
-nested list
+# nested list
 dirty_dozen = ["Strawberry", "Spinach", "Grapes"]
 
 fruits = ["Strawberry", "Nectarines", "Apples"]
@@ -270,9 +270,42 @@ elif computer_choice == 1 and man_choice == 2:
     print("Computer won")
 
 import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+game_images = [rock, paper, scissors]
+
 user_choice = int(input("What do you choose? Type 0 Rock, 1 Paper, 2 Scissors.\n"))
+print(f"User choice {user_choice}")
+print(game_images[user_choice])
+
 computer_choice = random.randint(0, 2)
 print(f"Computer choice {computer_choice}")
+print(game_images[computer_choice])
 
 if user_choice == 0 and computer_choice ==2:
     print("You win")
