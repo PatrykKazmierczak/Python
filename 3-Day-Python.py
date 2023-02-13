@@ -1,10 +1,10 @@
 # if / else conditional statement
-import condition as condition
-
-if condition:
-    do this
-else:
-    do this
+# import condition as condition
+#
+# if condition:
+#     do this
+# else:
+#     do this
 
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height? "))
@@ -23,13 +23,13 @@ if number % 2 == 0:
 else:
     print(number, "is odd")
 
-if condition:
-    if another condition:
-        do this
-    else:
-        do this
-else:
-    do this
+# if condition:
+#     if another condition:
+#         do this
+#     else:
+#         do this
+# else:
+#     do this
 
 print("Welcome to the rollercoaster!")
 height = int(input("What is your height? "))
@@ -274,8 +274,7 @@ choose1 = input('Which type of transport is slower "bike" or "motorbike"')
         print("You lost a game funny boy")
 
 
-
-
+print("Welcome to Treasure Island. Your mission is to find the treasure")
 
 
 
