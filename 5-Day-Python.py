@@ -68,6 +68,81 @@ for x in adj:
     for y in fruits:
         print(x, y)
 
+table = [1, 2, 3, 4, 5]
+
+for number in range(1, len(table)):
+    print(number)
+
+for number in range(0, 5):
+    print(number)
+
+total = 0
+for number in range(1, 101):
+    total += number
+print(total)
+
+# 1 + 2 + 3 = 6
+
+total = 0
+for number in range(1, 4):
+    total += number
+print(total)
+
+# 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45
+
+total = 0
+for number in range(1, 10):
+    total += number
+print(total)
+
+# 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 = 55
+
+total = 0
+for number in range(1, 11):
+    total+= number
+print(total)
+
+# print 1 4 7 10
+
+total = 0
+for number in range(1, 11, 3):
+    print(number)
+
+# calculate even numbers
+
+total = 0
+for number in range(2, 101, 2):
+    total += number
+print(total)
+
+
+total2 = 0
+for number in range(1, 101):
+    if number % 2 == 0:
+        total2 += number
+print(total2)
+
+# calculate odd numbers
+
+total2 = 0
+for number in range(1, 101):
+    if number % 2 != 0:
+        total2 += number
+print(total2)
+
+
+
+# Program FizzBuzz
+
+for number in range(1, 101):
+    if number % 3 == 0 and number % 5 == 0:
+        print(f"FizzBuzz {number}")
+    elif number % 3 == 0:
+        print(f"Fizz {number}")
+    elif number % 5 == 0:
+        print(f"Buzz {number}")
+    else:
+        print(f"{number}")
 
 
 
